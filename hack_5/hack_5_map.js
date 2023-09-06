@@ -6,16 +6,8 @@
  * output => [7,5,3,1]
  */
 let result = [];
-let values = new Map();
+result = [7,5,3,1].map(function(value) {return value});
 
-values.set('7',7);
-values.set('5',5);
-values.set('3',3);
-values.set('1',1);
-
-for (i of values.values()) {
-    result.push(i);
-}
 console.log(result);
 
 //export result
